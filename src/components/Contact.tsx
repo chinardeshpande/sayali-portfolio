@@ -29,21 +29,21 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-6 bg-white min-h-screen flex items-center">
+    <section id="contact" className="py-8 md:py-6 bg-white min-h-screen flex items-center">
       <div className="section-container w-full">
         {/* Compact Section Header */}
-        <div className="max-w-6xl mx-auto text-center mb-6">
+        <div className="max-w-6xl mx-auto text-center mb-6 px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-2">
             Let's build thoughtful experiences together
           </h2>
-          <p className="text-xs md:text-sm lg:text-base text-neutral-600 whitespace-nowrap overflow-hidden text-ellipsis px-4">
+          <p className="text-sm md:text-base text-neutral-600">
             I'm currently open to collaborations, freelance projects and full-time roles focused on UX Design, Service Design and Business Analysis.
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto grid lg:grid-cols-5 gap-6">
+        <div className="max-w-6xl mx-auto grid lg:grid-cols-5 gap-6 px-4">
           {/* Left Column - Contact Options */}
-          <div className="lg:col-span-2 space-y-4">
+          <div className="lg:col-span-2 space-y-3 md:space-y-4">
             <div>
               <h3 className="text-lg font-bold text-neutral-900 mb-3">
                 Connect With Me

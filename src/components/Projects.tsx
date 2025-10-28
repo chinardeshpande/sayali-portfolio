@@ -22,24 +22,24 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="pt-4 pb-8 bg-white">
+    <section id="projects" className="pt-6 md:pt-4 pb-8 md:pb-8 bg-white">
       <div className="section-container">
         {/* Compact Section Header */}
-        <div className="max-w-4xl mx-auto text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-3">
+        <div className="max-w-4xl mx-auto text-center mb-6 md:mb-8 px-4">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-2 md:mb-3">
             Project Showcase
           </h2>
-          <p className="text-lg text-neutral-600">
+          <p className="text-base md:text-lg text-neutral-600">
             <strong className="text-neutral-800">Challenge → Process → Outcome</strong>. Click to explore.
           </p>
         </div>
 
         {/* Horizontal Carousel */}
-        <div className="relative max-w-7xl mx-auto mb-12">
-          {/* Left Arrow */}
+        <div className="relative max-w-7xl mx-auto mb-8 md:mb-12">
+          {/* Left Arrow - Hidden on mobile */}
           <button
             onClick={() => scroll('left')}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white shadow-lg rounded-full p-3 transition-all duration-300 hover:scale-110"
+            className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white shadow-lg rounded-full p-3 transition-all duration-300 hover:scale-110"
             aria-label="Scroll left"
           >
             <svg className="w-6 h-6 text-neutral-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ const Projects = () => {
           {/* Scrollable Container */}
           <div
             ref={scrollContainerRef}
-            className="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide px-12"
+            className="flex gap-4 md:gap-6 overflow-x-auto scroll-smooth scrollbar-hide px-4 md:px-12 snap-x snap-mandatory"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {projects.map((project) => (
@@ -69,7 +69,7 @@ const Projects = () => {
                     navigate(`/project/${project.id}`);
                   }
                 }}
-                className="group cursor-pointer bg-white rounded-xl overflow-hidden border border-neutral-200 hover:border-primary-400 transition-all duration-300 hover:shadow-xl flex flex-col flex-shrink-0 w-80"
+                className="group cursor-pointer bg-white rounded-xl overflow-hidden border border-neutral-200 hover:border-primary-400 transition-all duration-300 hover:shadow-xl flex flex-col flex-shrink-0 w-72 md:w-80 snap-center"
               >
               {/* Compact Cover Image */}
               <div className="relative h-48 overflow-hidden bg-neutral-100 flex-shrink-0">
@@ -118,10 +118,10 @@ const Projects = () => {
             ))}
           </div>
 
-          {/* Right Arrow */}
+          {/* Right Arrow - Hidden on mobile */}
           <button
             onClick={() => scroll('right')}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white shadow-lg rounded-full p-3 transition-all duration-300 hover:scale-110"
+            className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white shadow-lg rounded-full p-3 transition-all duration-300 hover:scale-110"
             aria-label="Scroll right"
           >
             <svg className="w-6 h-6 text-neutral-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -131,11 +131,11 @@ const Projects = () => {
         </div>
 
         {/* Compact CTA Banner */}
-        <div className="max-w-4xl mx-auto text-center p-8 bg-gradient-to-br from-primary-600 to-accent-600 rounded-2xl text-white">
-          <h3 className="text-2xl font-bold mb-2">
+        <div className="max-w-4xl mx-auto text-center p-6 md:p-8 bg-gradient-to-br from-primary-600 to-accent-600 rounded-2xl text-white mx-4">
+          <h3 className="text-xl md:text-2xl font-bold mb-2">
             Let's build thoughtful experiences together
           </h3>
-          <p className="text-base text-white/90 mb-6">
+          <p className="text-sm md:text-base text-white/90 mb-4 md:mb-6">
             Open to design collaborations, freelance projects, and full-time roles.
           </p>
           <button
@@ -146,7 +146,7 @@ const Projects = () => {
                 contactSection.scrollIntoView({ behavior: 'smooth' });
               }
             }}
-            className="inline-flex items-center justify-center bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-neutral-50 transition-all duration-300 shadow-lg"
+            className="inline-flex items-center justify-center bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-neutral-50 transition-all duration-300 shadow-lg w-full sm:w-auto"
           >
             Get In Touch
           </button>
