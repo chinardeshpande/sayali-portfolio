@@ -1,0 +1,193 @@
+{
+    "type": "notion_dashboard",
+    "title": "Sayali\u2019s Career Compass \u2013 Business Design x AI Journey (2025\u20132030)",
+    "pages": [
+        {
+            "name": "Overview",
+            "description": "Career overview and North Star goals",
+            "sections": {
+                "Header": "Building a people-centered, AI-powered career in Business Analysis and Experience Strategy.",
+                "Current Focus": "Early-career pivot \u2192 Business Analyst (Process + People + AI).",
+                "North Star Goal": "Lead CX and AI transformation projects by 2030.",
+                "Core Strengths": [
+                    "Research",
+                    "Empathy",
+                    "Structuring",
+                    "Communication",
+                    "AI fluency"
+                ],
+                "Career Tagline": "I connect human stories with structured workflows to make technology humane.",
+                "Widgets": {
+                    "Learning Focus": "Process mapping, stakeholder workshops, AI tools for automation",
+                    "Mantra": "Every system improves when people are truly heard",
+                    "Tracking Links": [
+                        "Job Tracker",
+                        "Skill Tracker",
+                        "Network Map",
+                        "Portfolio Plan"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Career Progression Matrix",
+            "type": "table",
+            "columns": [
+                "Phase",
+                "Timeline",
+                "Target Roles",
+                "Focus Area",
+                "Key Deliverables",
+                "AI Tools",
+                "Learning Goal",
+                "Success Marker"
+            ],
+            "rows": [
+                [
+                    "Phase 1",
+                    "2025\u20132026",
+                    "Business Analyst / Experience Analyst",
+                    "Understanding people + mapping processes",
+                    "Research reports, SOPs, blueprints",
+                    "ChatGPT, Miro AI, Notion AI",
+                    "BA fundamentals + process mapping",
+                    "2 quantifiable impact projects"
+                ],
+                [
+                    "Phase 2",
+                    "2026\u20132027",
+                    "Service Experience Analyst",
+                    "Redesign workflows using AI",
+                    "Service blueprints, CX dashboards",
+                    "n8n, Replit",
+                    "AI workflow design",
+                    "End-to-end redesign case"
+                ],
+                [
+                    "Phase 3",
+                    "2027\u20132028",
+                    "Product Owner / CX Lead",
+                    "Team & sprint management",
+                    "Process handbooks, AI documentation",
+                    "Jira AI, Figma Dev",
+                    "Agile ops + leadership",
+                    "Lead a small team"
+                ],
+                [
+                    "Phase 4",
+                    "2028\u20132029",
+                    "Service Design Lead",
+                    "AI-driven scaling",
+                    "System maps, adoption playbook",
+                    "Claude, Zoho Flow",
+                    "Systems thinking",
+                    "Run org-wide pilot"
+                ],
+                [
+                    "Phase 5",
+                    "2029\u20132030",
+                    "Director / Head of CX Strategy",
+                    "Design + AI leadership",
+                    "Strategy deck, white paper",
+                    "ChatGPT Enterprise",
+                    "Org design, leadership",
+                    "Conference speaker / Mentor"
+                ]
+            ]
+        },
+        {
+            "name": "Job Tracker",
+            "type": "kanban",
+            "columns": [
+                "Prospecting",
+                "Applied",
+                "Interviewing",
+                "Offer/Decision",
+                "Networking Leads"
+            ],
+            "properties": [
+                "Company name",
+                "Role title",
+                "Location",
+                "Contact person",
+                "Referral",
+                "Application date",
+                "JD link",
+                "Alignment Score",
+                "Notes"
+            ]
+        },
+        {
+            "name": "Skill Tracker",
+            "type": "gallery",
+            "properties": [
+                "Skill Area",
+                "Micro-course",
+                "Current Level",
+                "Status",
+                "Artifact Produced"
+            ]
+        },
+        {
+            "name": "Network Map",
+            "type": "table",
+            "columns": [
+                "Name",
+                "Organization",
+                "Role",
+                "Relation",
+                "Contact Date",
+                "Follow-up",
+                "Notes"
+            ]
+        },
+        {
+            "name": "Learning & Projects Log",
+            "type": "timeline",
+            "columns": [
+                "Date",
+                "Project",
+                "Role",
+                "Skills Used",
+                "Learning",
+                "AI Tools",
+                "Outcome",
+                "Next Action"
+            ]
+        },
+        {
+            "name": "Portfolio Plan",
+            "type": "board",
+            "columns": [
+                "Idea",
+                "Drafting",
+                "Review",
+                "Published"
+            ],
+            "properties": [
+                "Title",
+                "Project Type",
+                "Impact Metric",
+                "Status",
+                "Public Link",
+                "Review Feedback"
+            ]
+        },
+        {
+            "name": "Weekly Reflection Journal",
+            "type": "template",
+            "fields": {
+                "What I Learned": "",
+                "Where I Improved My Process Thinking": "",
+                "People I Connected With": "",
+                "AI Tools That Helped Me Work Smarter": "",
+                "Next Week\u2019s Focus": "",
+                "Mini Wins / Gratitude Moments": ""
+            }
+        },
+        {
+            "name": "Visual Summary",
+            "description": "Embedded Career Progression Matrix with color-coded phases"
+        }
+    ]
+}

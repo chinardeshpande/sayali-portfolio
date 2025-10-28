@@ -1,0 +1,34 @@
+Reimagining Radiology Diagnostics: A Care Model for an Inclusive Patient Experience
+
+**Brief**
+U4RAD Technologies set out to build **XRAi Digital**, a network of radiology clinics and at‑home diagnostic services.  The goal was to transform the patient journey by creating a care model that is inclusive, efficient and emotionally supportive.
+
+**Intervention & Impact**
+The team redesigned clinic layouts to improve accessibility, developed **modular imaging equipment** that allows patients—especially those with mobility impairments—to position themselves comfortably, and built a **digital triage system** to streamline scheduling and workflows.  These interventions reduced procedure times, enhanced dignity and safety for patients, and gave medical staff more efficient tools.  Emotional wellbeing improved as anxiety‑inducing bottlenecks were removed.
+
+**My Role**
+Sayali worked with a cross‑disciplinary team to research patient and staff needs, co‑create solutions with stakeholders and prototype inclusive medical equipment, spatial layouts and digital systems.  She facilitated workshops with healthcare professionals to refine designs and ensure they could be practically implemented.
+
+**Research & Insights**
+Interviews with patients, attendants, radiographers and radiologists, along with field observations, highlighted four key problems:
+  • **Accessibility gaps** – most clinics lack equipment and spaces for people with mobility impairments, making transfers unsafe and uncomfortable.
+  • **Workflow inefficiencies** – manual scheduling and triage cause delays and stress for both staff and patients.
+  • **Spatial limitations** – rigid layouts restrict patient circulation and staff ergonomics, especially in emergencies.
+  • **Emotional discomfort & under‑used technology** – clinics often feel cold and confusing; poor communication and long waits create anxiety, while outdated systems hinder data sharing and tracking.
+In India these issues are widespread, leading to safety risks, delayed care and heightened anxiety.
+
+**Area of Opportunity**
+How might radiology be redesigned to be safer, more inclusive and empathetic while improving diagnostic efficiency?  The team asked this question with a special focus on patients with mobility challenges, trauma histories and special needs.
+
+**Theory of Change**
+By prioritising patient needs through accessible equipment, efficient triage, ergonomic layouts and supportive environments, clinics can reduce delays, improve comfort and achieve better health outcomes—particularly for underserved groups.
+
+**Implementation & Prototyping**
+The team built 3D prototypes of modular equipment and clinic layouts and wireframed the digital triage interface.  These concepts were tested with staff and patients and refined through feedback.  Service simulations mapped patient flow, while co‑creation workshops with radiographers ensured the designs fit real‑world constraints.  Key solutions include:
+  • *Spatial layouts* that provide smooth navigation and privacy
+  • *Adjustable imaging tables and detector stands* for safe positioning
+  • *A triage platform* that prioritises patients based on individual needs
+  • *Communication tools and peer‑support protocols* to build trust and reduce anxiety
+
+**Impact**
+Together these interventions created safer, more efficient workflows.  Patients with mobility impairments benefited from better equipment; emotional comfort improved through empathetic communication; clinic efficiency increased thanks to streamlined triage and resource allocation.  Staff fatigue decreased, job satisfaction rose, and the project laid a foundation for scalable, patient‑centred radiology clinics.

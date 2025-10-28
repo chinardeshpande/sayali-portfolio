@@ -1,0 +1,182 @@
+{
+  "site": {
+    "navigation": [
+      {"label": "Home", "href": "index.html"},
+      {"label": "Work", "href": "work.html"},
+      {"label": "About", "href": "about.html"},
+      {"label": "Contact", "href": "contact.html"}
+    ],
+    "cta": {
+      "primary": {"label": "View My Work", "href": "work.html"},
+      "secondary": {"label": "Let’s Collaborate", "href": "contact.html"}
+    },
+    "seo": {
+      "title": "Sayali Deshpande | Service & UX Designer",
+      "description": "Sayali Deshpande is a Service and UX Designer blending design strategy, research, and front‑end development to craft human‑centered digital experiences.",
+      "keywords": "Service Design, UX Designer, Portfolio, RCA London, UX Research, Human‑Centered Design, Front‑End Developer"
+    }
+  },
+  "pages": [
+    {
+      "id": "home",
+      "sections": [
+        {
+          "id": "hero",
+          "title": "Designing experiences that connect people, purpose, and possibility.",
+          "subtitle": "I’m Sayali Deshpande, a designer and front‑end thinker who blends service design, UX strategy, and code to shape humane digital experiences.",
+          "microbio": "Currently exploring how design systems, research, and technology can create lasting impact across healthcare, education, and community innovation.",
+          "cta": {
+            "primary": "work.html",
+            "secondary": "contact.html"
+          }
+        },
+        {
+          "id": "featured",
+          "projects": [
+            {"ref": "radiology"},
+            {"ref": "burnout"},
+            {"ref": "local"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "My Work",
+      "intro": "Below are selected projects that illustrate how I merge research, design, and code to create meaningful experiences.",
+      "projectRefs": ["radiology", "burnout", "local", "neurodiversity", "portfolio-system"]
+    },
+    {
+      "id": "about",
+      "title": "About Me",
+      "subtitle": "Design as translation — between people, systems, and emotions.",
+      "story": "I’m a Service and UX Designer with roots in product design and front‑end development. My journey has taken me from ISDI Parsons (India) to the Royal College of Art, London, collaborating with organizations like the NHS and Local‑to‑Local on human‑centered projects. I believe design is not decoration — it’s dialogue. It listens before it acts. My practice focuses on clarity, empathy, and translating insights into usable, thoughtful systems. When I’m not designing, you’ll find me sketching, traveling, or studying how small interactions shape trust between people and technology.",
+      "skills": [
+        "User research & service design",
+        "Interaction & interface design",
+        "Front‑end development (React, HTML, CSS)",
+        "Systems mapping & design strategy"
+      ],
+      "education": [
+        "MA Service Design — Royal College of Art, London",
+        "B.Des Product Design — ISDI Parsons, Mumbai"
+      ],
+      "philosophy": "Design begins where understanding meets imagination."
+    },
+    {
+      "id": "contact",
+      "title": "Let’s Connect",
+      "intro": "I’m currently open to design collaborations, freelance projects, or full‑time roles focused on UX, service design, or product strategy.",
+      "email": "sayali.deshpande.design@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/sayali-deshpande-203676137/"
+    }
+  ],
+  "projects": [
+    {
+      "id": "radiology",
+      "name": "Redesigning Radiology Workflow",
+      "context": "NHS × RCA collaboration",
+      "challenge": "Radiologists and technicians struggled with inefficient handoffs and poor feedback systems.",
+      "approach": [
+        "Mapped existing workflows",
+        "Ran co‑design sessions",
+        "Prototyped a visual dashboard that simplified case tracking"
+      ],
+      "outcome": [
+        "Improved communication loops",
+        "Reduced delays in image review",
+        "Fostered a stronger collaboration culture"
+      ],
+      "skills": ["UX research", "Service blueprinting", "Prototyping"],
+      "visuals": [
+        {
+          "src": "assets/img/placeholder.png",
+          "alt": "Radiology workflow dashboard prototype placeholder"
+        }
+      ]
+    },
+    {
+      "id": "burnout",
+      "name": "Addressing Nurse Burnout",
+      "context": "Healthcare service design initiative",
+      "challenge": "Burnout among nurses undermined patient care and morale.",
+      "approach": [
+        "Conducted ethnographic interviews",
+        "Mapped stress triggers",
+        "Co‑developed a wellbeing toolkit integrated into shift planning"
+      ],
+      "outcome": [
+        "Proposed framework adopted by local clinics",
+        "Improved satisfaction scores during the pilot program"
+      ],
+      "skills": ["Systems thinking", "Qualitative research", "Journey mapping"],
+      "visuals": [
+        {
+          "src": "assets/img/placeholder.png",
+          "alt": "Nurse wellbeing toolkit prototype placeholder"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local‑to‑Local Platform",
+      "context": "Urban community service design initiative",
+      "challenge": "Strengthen the circular economy between local producers and citizens.",
+      "approach": [
+        "Designed a service blueprint",
+        "Developed a digital prototype for shared‑value interactions between stakeholders"
+      ],
+      "outcome": [
+        "Concept recognized by sustainability innovation councils",
+        "Showcased at academic conferences"
+      ],
+      "skills": ["Service design", "Co‑creation", "UX wireframes"],
+      "visuals": [
+        {
+          "src": "assets/img/placeholder.png",
+          "alt": "Local-to-local platform prototype placeholder"
+        }
+      ]
+    },
+    {
+      "id": "neurodiversity",
+      "name": "Neurodiversity Justice Platform",
+      "context": "Inclusion‑driven non‑profit project",
+      "challenge": "Create accessible tools for neurodiverse individuals interacting with justice systems.",
+      "approach": [
+        "User research with affected groups",
+        "Iterative prototyping for readability and tone"
+      ],
+      "outcome": [
+        "Increased comprehension of rights content by 40% during user testing"
+      ],
+      "skills": ["Accessibility design", "UX writing", "Front‑end prototyping"],
+      "visuals": [
+        {
+          "src": "assets/img/placeholder.png",
+          "alt": "Neurodiversity justice platform prototype placeholder"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-system",
+      "name": "Portfolio Coding System",
+      "context": "Personal development",
+      "challenge": "Merge service design storytelling with real code implementation.",
+      "approach": [
+        "Built modular components in Framer and React",
+        "Explored visual design systems for responsiveness"
+      ],
+      "outcome": [
+        "Unified professional portfolio site demonstrating both design sensibility and technical fluency"
+      ],
+      "skills": ["UI development", "Design systems", "React"],
+      "visuals": [
+        {
+          "src": "assets/img/placeholder.png",
+          "alt": "Portfolio coding system component library placeholder"
+        }
+      ]
+    }
+  ]
+}

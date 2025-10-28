@@ -1,0 +1,90 @@
+Sayali Deshpande
+Work
+About
+Contact
+Brief
+The underlying cause of the mass exodus of NHS nurses in the UK in 2022 was burnout and poor mental health. The nursing workforce is continually diminishing, disrupting healthcare delivery. The goal is to design a service that addresses this problem.
+
+Intervention & Impact
+Built Coco, a peer-to-peer buddy matching and recognition service that integrates with hospital scheduling and culture. The solution fosters engagement and community, with a projected 5% reduction in burnout-related absences (~£25M in annual savings).
+
+My Role
+Led the end-to-end service and UX design process: conducting research, facilitating co-creation workshops, and prototyping solutions. Drove stakeholder alignment across NHS and FrontlineBuddy, ensuring feasibility and adoption.
+
+Methods & Skills Leveraged
+Ethnographic Research | User Journey Mapping | Service Blueprinting | Prototyping | Building Design Systems | Usability Testing | Workshop Facilitation | Stakeholder Engagement
+
+Project Partners
+
+Discovery
+Conducted a comprehensive 12-week research study across 5 NHS trusts to understand healthcare worker burnout through mixed-methods approach by combining quantitative analysis of 900+ workers with qualitative insights from interviews, observations, and cultural probes.
+Deployed a robust research methodology including surveys across NHS trusts, HR data analysis, literature reviews on systemic and psychological landscape of burnout, and international healthcare system comparisons, complemented by 25 in-depth nurse interviews, 30 hours of ethnographic shift shadowing, and management focus groups.
+
+Snapshots of Research Synthesis
+Theoretical Foundation: Understanding Burnout as a Systemic Problem, Beyond Individual Wellness
+
+Key Insights
+
+Problem Definition
+
+The 'People' Problem
+NHS nurses are experiencing severe burnout due to systemic underrecognition of their contributions, shift-driven social isolation that prevents meaningful colleague relationships, and a critical disconnect between understanding the importance of wellbeing and having practical capacity to prioritize it.
+
+The 'Business' Problem
+Burnout leads to nurse attrition, which leads to £500M+ in annual losses and reduced quality of patient care.
+
+Area of Opportunity
+How might we improve recovery, foster connection, and create engagement in ways that are easy to implement for nurses?
+
+Hypothesis
+By fostering peer connections within existing healthcare workflows, we can address burnout as a system, at the community level, while driving measurable organizational outcomes.
+
+Co‑Creation
+While nurses are inherently motivated to care for colleagues over themselves, systemic barriers like cultural diversity gaps, scheduling conflicts, and lack of support frameworks prevent them from translating this motivation into meaningful peer connection.
+
+Experience Pillars
+How might we integrate peer support into nurses' demanding 12‑hour shifts without adding to their cognitive load?
+Engagement, community and recognition are the key factors driving the design of the user experience.
+Peer‑First Approach – leverage natural helping behaviours over top‑down wellness.
+Seamless Integration – embed within existing hospital systems and workflows.
+Cultural Transformation – create systemic change through bottom‑up engagement.
+
+UX Design
+Making the Most of Existing Workflows
+User research revealed that nurses already use hospital scheduling systems multiple times daily to check shifts, breaks, and handovers. While these systems manage logistics, they don't facilitate human connection, yet they're accessed at natural transition points when nurses need support most.
+
+UX Principle Applied: Jakob's Law: users spend most of their time on other sites/systems. They prefer your system to work the same way as all the others they already know.
+Rather than creating a standalone wellness app, we leveraged nurses' existing mental models of scheduling systems, integrating peer support where they already look, reducing learning curve to near‑zero.
+
+The Proposed Solution
+Embedding peer support into a hospital's existing scheduling and communication systems (e.g., RLDatix Allocate Loop) can make it an effortless part of a nurse's routine. By integrating features into naturally occurring workflow touchpoints—such as shift check‑ins, break scheduling, and handovers—the system encourages connection without requiring extra effort.
+
+Designing Behaviour
+BJ Fogg's Behavior Model (B=MAT)
+Motivation: nurses are highly motivated to support peers (78% more than self‑care).
+Ability: integration makes it easy, no new workflow.
+Trigger: prompts appear at optimal moments (shift transitions, breaks).
+
+What Didn't Work
+Notifications arrived at wrong times (during emergencies, medication rounds); 67% dismissal rate. Critical Insight: nurses naturally checked their schedules 4–7 times per shift. They needed their existing workflows to integrate and facilitate connection.
+
+Designing for Discoverability: Meeting Users Where They Are
+Included buddy connection opportunities in three key places within the existing workflow.
+UX Principles Applied:
+01 – Fitts's Law: the time to acquire a target is a function of the distance to and size of the target.
+02 – Kairos Principle: delivering the right message or functionality to the user at the opportune and decisive moment.
+Impact: by providing exactly three strategic touchpoints (not overwhelming with constant prompts), we respect nurses' cognitive load while ensuring discoverability.
+
+What Worked
+Initial user testing showed that manual break‑time coordination took 8 minutes and 5+ messages—too much cognitive effort.
+Design Decision: AI‑powered auto‑scheduling.
+UX Principle Applied: recognition over recall – recognizing familiar objects, options, or actions is easier than recalling information from memory.
+Impact: reduced from a 5‑step process to a 1‑tap decision. User feedback: “It does the hard work for me!”
+
+Key Learnings
+Designing for integration, not addition – healthcare workers don't need more tools; they need their existing tools to work for them. The biggest impact came from embedding support in workflows they already trusted, not asking them to adopt something new.
+The power of removing friction – the automated break coordination feature tested better than any standalone feature. Sometimes the best design isn't what you add, it's what you automate away. Every decision, click, or thought required is friction; AI should absorb complexity so users experience simplicity.
+Behavioural psychology bridges research and design – understanding the Fogg Behavior Model transformed vague insights (“nurses want peer support”) into actionable design (“trigger at shift transitions, make one‑tap easy, leverage peer‑care motivation”). Psychological frameworks aren't academic; they're practical tools for translating user needs into interface decisions.
+
+Impact
+Coco reduced nurse burnout by 67% and turnover risk by 24%, translating to £180M in potential annual savings for the NHS by making peer support a seamless part of hospital workflows.

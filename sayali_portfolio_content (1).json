@@ -1,0 +1,518 @@
+{
+  "site": {
+    "name": "Sayali Deshpande — Portfolio",
+    "domain": "sayalideshpandeportfolio.framer.website",
+    "brand": {
+      "tagline": "Designing experiences that connect people, purpose, and possibility.",
+      "voice": [
+        "warm",
+        "reflective",
+        "quietly confident"
+      ],
+      "mood": [
+        "minimal",
+        "human-centered",
+        "strategic"
+      ]
+    },
+    "theme": {
+      "colors": {
+        "background": "#FFFFFF",
+        "textPrimary": "#0F172A",
+        "textSecondary": "#475569",
+        "accent": "#2D6A4F",
+        "accentAlt": "#1D4ED8",
+        "muted": "#E5E7EB",
+        "surface": "#F8FAFC"
+      },
+      "typography": {
+        "heading": "Inter",
+        "body": "Inter",
+        "scale": {
+          "h1": 48,
+          "h2": 36,
+          "h3": 28,
+          "body": 18,
+          "small": 15
+        }
+      },
+      "layout": {
+        "maxWidth": 1100,
+        "sectionGap": 88,
+        "containerPadding": 24,
+        "radius": 16
+      }
+    },
+    "navigation": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Work",
+        "href": "/work"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "cta": {
+      "primary": {
+        "label": "View My Work",
+        "href": "/work"
+      },
+      "secondary": {
+        "label": "Let’s Collaborate",
+        "href": "/contact"
+      },
+      "stickyHeader": true
+    },
+    "seo": {
+      "title": "Sayali Deshpande | UX & Service Designer",
+      "description": "Sayali Deshpande blends service design, UX strategy, and front‑end development to craft humane, usable digital experiences.",
+      "keywords": [
+        "Service Design",
+        "UX Designer",
+        "Portfolio",
+        "RCA London",
+        "UX Research",
+        "Human-Centered Design",
+        "Front-End Developer"
+      ],
+      "imageAltDefaults": true
+    },
+    "analytics": {
+      "enable": true,
+      "provider": "framer",
+      "anonymizeIp": true
+    }
+  },
+  "pages": [
+    {
+      "slug": "/",
+      "name": "Home",
+      "sections": [
+        {
+          "type": "hero",
+          "layout": "split",
+          "eyebrow": "Sayali Deshpande",
+          "title": "Designing experiences that connect people, purpose, and possibility.",
+          "subtitle": "I blend **service design, UX strategy, and code** to shape humane digital experiences.",
+          "primaryCta": {
+            "label": "View My Work",
+            "href": "/work"
+          },
+          "secondaryCta": {
+            "label": "Let’s Collaborate",
+            "href": "/contact"
+          },
+          "media": {
+            "kind": "imageOrLottie",
+            "src": "",
+            "alt": "Soft animation of sketch to interface to human interaction"
+          }
+        },
+        {
+          "type": "highlights",
+          "items": [
+            {
+              "label": "Focus",
+              "text": "Healthcare, education, and community innovation"
+            },
+            {
+              "label": "Strengths",
+              "text": "Systems thinking, research depth, thoughtful execution"
+            },
+            {
+              "label": "Stack",
+              "text": "Figma, Service Blueprints, React, HTML/CSS"
+            }
+          ]
+        },
+        {
+          "type": "featuredWorkIntro",
+          "title": "Selected Projects",
+          "link": {
+            "label": "See all work",
+            "href": "/work"
+          }
+        },
+        {
+          "type": "gridProjectsRef",
+          "projectRefs": [
+            "radiology_workflow",
+            "nurse_burnout",
+            "local_to_local",
+            "neurodiversity_justice"
+          ]
+        },
+        {
+          "type": "ctaBanner",
+          "title": "Let’s build thoughtful experiences together.",
+          "primaryCta": {
+            "label": "Book a Call",
+            "href": "/contact"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "/work",
+      "name": "Work",
+      "sections": [
+        {
+          "type": "intro",
+          "title": "Work & Case Studies",
+          "text": "Each project is a mini‑story: challenge → process → outcome."
+        },
+        {
+          "type": "caseListRef",
+          "projectRefs": [
+            "radiology_workflow",
+            "nurse_burnout",
+            "local_to_local",
+            "neurodiversity_justice",
+            "portfolio_system"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/about",
+      "name": "About",
+      "sections": [
+        {
+          "type": "heading",
+          "title": "Design as translation — between people, systems, and emotions."
+        },
+        {
+          "type": "twoCol",
+          "left": {
+            "kind": "richText",
+            "content": [
+              "I’m a **Service and UX Designer** with roots in product design and front‑end development.",
+              "My journey has taken me from **ISDI Parsons (India)** to the **Royal College of Art, London**, collaborating with organizations like the **NHS** and **Local‑to‑Local (Amsterdam)** on human‑centered projects.",
+              "I believe design is not decoration — it’s dialogue. It listens before it acts. My practice focuses on clarity, empathy, and translating insights into usable, thoughtful systems.",
+              "When I’m not designing, you’ll find me sketching, traveling, or studying how small interactions shape trust between people and technology."
+            ]
+          },
+          "right": {
+            "kind": "facts",
+            "skills": [
+              "User Research",
+              "Service Design",
+              "Interaction & Interface",
+              "Front‑End (React, HTML, CSS)",
+              "Systems Mapping",
+              "Design Strategy"
+            ],
+            "tools": [
+              "Figma",
+              "Miro",
+              "Framer",
+              "React",
+              "HTML",
+              "CSS"
+            ],
+            "education": [
+              "MA Service Design — Royal College of Art, London",
+              "B.Des Product Design — ISDI Parsons, Mumbai"
+            ],
+            "quote": "Design begins where understanding meets imagination."
+          }
+        },
+        {
+          "type": "testimonialsRef",
+          "testimonialRefs": [
+            "t_rCA",
+            "t_nhs"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/contact",
+      "name": "Contact",
+      "sections": [
+        {
+          "type": "heading",
+          "title": "Let’s build thoughtful experiences together."
+        },
+        {
+          "type": "contactOptions",
+          "items": [
+            {
+              "label": "Book a Call",
+              "href": "#book-a-call"
+            },
+            {
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/sayali-deshpande-203676137/"
+            },
+            {
+              "label": "Email",
+              "href": "mailto:sayali.deshpande.design@gmail.com"
+            }
+          ],
+          "note": "Open to UX, Service Design, and Product Strategy collaborations."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "radiology_workflow",
+      "title": "Redesigning Radiology Workflow",
+      "context": "NHS × RCA collaboration",
+      "cover": "",
+      "tags": [
+        "Healthcare",
+        "Service Design",
+        "UX"
+      ],
+      "role": "Lead UX & Service Designer",
+      "challenge": "Radiologists and technicians struggled with inefficient handoffs and poor feedback systems.",
+      "approach": [
+        "Mapped existing workflows and pain points.",
+        "Facilitated co‑design sessions across roles.",
+        "Prototyped a visual dashboard to simplify case tracking."
+      ],
+      "outcome": [
+        "Improved communication loops between teams.",
+        "Reduced delays in image review in pilot scenarios.",
+        "Fostered stronger collaboration culture."
+      ],
+      "skills": [
+        "UX Research",
+        "Service Blueprinting",
+        "Prototyping"
+      ],
+      "visuals": [
+        {
+          "src": "",
+          "alt": "Workflow diagram of radiology process"
+        },
+        {
+          "src": "",
+          "alt": "Dashboard mockups for case tracking"
+        },
+        {
+          "src": "",
+          "alt": "Co‑creation workshop photos"
+        }
+      ]
+    },
+    {
+      "id": "nurse_burnout",
+      "title": "Addressing Nurse Burnout",
+      "context": "Healthcare service design initiative",
+      "cover": "",
+      "tags": [
+        "Healthcare",
+        "Research",
+        "Wellbeing"
+      ],
+      "role": "Service Designer",
+      "challenge": "Burnout among nurses was undermining patient care and morale.",
+      "approach": [
+        "Conducted ethnographic interviews and shadowing.",
+        "Mapped stress triggers and systemic constraints.",
+        "Co‑developed a wellbeing toolkit integrated into shift planning."
+      ],
+      "outcome": [
+        "Framework adapted by local clinics post‑study.",
+        "Boosted satisfaction scores in pilot program."
+      ],
+      "skills": [
+        "Systems Thinking",
+        "Qualitative Research",
+        "Journey Mapping"
+      ],
+      "visuals": [
+        {
+          "src": "",
+          "alt": "Workshop sketches of wellbeing toolkit"
+        },
+        {
+          "src": "",
+          "alt": "Emotional journey maps"
+        }
+      ]
+    },
+    {
+      "id": "local_to_local",
+      "title": "Local‑to‑Local Platform (Amsterdam)",
+      "context": "Urban community service design",
+      "cover": "",
+      "tags": [
+        "Community",
+        "Sustainability",
+        "Platform"
+      ],
+      "role": "Service & UX Designer",
+      "challenge": "Strengthen circular economy between local producers and citizens.",
+      "approach": [
+        "Designed service blueprint across stakeholders.",
+        "Prototyped digital touchpoints for shared‑value interactions.",
+        "Validated flows with community participants."
+      ],
+      "outcome": [
+        "Concept recognized by sustainability councils.",
+        "Showcased at academic conferences."
+      ],
+      "skills": [
+        "Service Design",
+        "Co‑Creation",
+        "UX Wireframes"
+      ],
+      "visuals": [
+        {
+          "src": "",
+          "alt": "Blueprint of stakeholder interactions"
+        },
+        {
+          "src": "",
+          "alt": "Landing page mockups"
+        }
+      ]
+    },
+    {
+      "id": "neurodiversity_justice",
+      "title": "Neurodiversity Justice Platform",
+      "context": "Inclusion‑driven non‑profit project",
+      "cover": "",
+      "tags": [
+        "Accessibility",
+        "Inclusion",
+        "Content Design"
+      ],
+      "role": "UX & Accessibility Designer",
+      "challenge": "Create accessible tools for neurodiverse individuals interacting with justice systems.",
+      "approach": [
+        "User research and co‑design with affected groups.",
+        "Iterative prototyping emphasizing readability and tone.",
+        "Accessibility testing and refinements."
+      ],
+      "outcome": [
+        "Increased comprehension of rights content by ~40% in usability tests."
+      ],
+      "skills": [
+        "Accessibility",
+        "UX Writing",
+        "Front‑End Prototyping"
+      ],
+      "visuals": [
+        {
+          "src": "",
+          "alt": "Typography studies for readability"
+        },
+        {
+          "src": "",
+          "alt": "Accessibility testing dashboard"
+        }
+      ]
+    },
+    {
+      "id": "portfolio_system",
+      "title": "Portfolio Coding System",
+      "context": "Personal development",
+      "cover": "",
+      "tags": [
+        "Design System",
+        "React",
+        "Framer"
+      ],
+      "role": "Designer–Developer",
+      "challenge": "Merge service design storytelling with real code implementation.",
+      "approach": [
+        "Built modular components in Framer + React.",
+        "Explored responsive typographic & spacing scales.",
+        "Created content model for future portability."
+      ],
+      "outcome": [
+        "Unified professional portfolio demonstrating design sensibility and technical fluency."
+      ],
+      "skills": [
+        "UI Development",
+        "Design Systems",
+        "React"
+      ],
+      "visuals": [
+        {
+          "src": "",
+          "alt": "Component library preview"
+        },
+        {
+          "src": "",
+          "alt": "Responsive layout demos"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t_rCA",
+      "quote": "Sayali brought clarity to a deeply complex problem. Her calm energy and strategic thinking made collaboration effortless.",
+      "author": "Project Mentor, RCA",
+      "role": "Mentor"
+    },
+    {
+      "id": "t_nhs",
+      "quote": "Her ability to move from user insights to tangible prototypes is outstanding.",
+      "author": "UX Lead, NHS project",
+      "role": "UX Lead"
+    }
+  ],
+  "footer": {
+    "text": "© 2025 Sayali Deshpande | Designed & coded with curiosity.",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/sayali-deshpande-203676137/"
+      },
+      {
+        "label": "Email",
+        "href": "mailto:sayali.deshpande.design@gmail.com"
+      }
+    ]
+  },
+  "migrationNotes": {
+    "framer": "Import via a JSON data source or copy/paste into your CMS Collection; bind section components to fields in this JSON.",
+    "componentsMappingHint": [
+      {
+        "component": "HeroSection",
+        "bind": [
+          "hero.eyebrow",
+          "hero.title",
+          "hero.subtitle",
+          "hero.primaryCta",
+          "hero.secondaryCta",
+          "hero.media"
+        ]
+      },
+      {
+        "component": "GridProjects",
+        "bind": [
+          "projects[].title",
+          "projects[].tags",
+          "projects[].cover",
+          "projects[].id"
+        ]
+      },
+      {
+        "component": "CaseStudy",
+        "bind": [
+          "challenge",
+          "approach[]",
+          "outcome[]",
+          "visuals[]"
+        ]
+      }
+    ]
+  }
+}
